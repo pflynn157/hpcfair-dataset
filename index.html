@@ -1,0 +1,239 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>HPCFair Dataset Search</title>
+    </head>
+    <body>
+        <!-- The main table -->
+        <table>
+            <!-- The header row -->
+            <tr>
+                <th>Category</th>
+                <th>Tasks</th>
+                <th>Datasets</th>
+            </tr>
+            
+            <!-- Code Analysis -->
+            <!-- -->
+            <tr>
+                <td>Code-Analysis</td>
+                <td>Performance Modeling</td>
+                <td>
+                    DeepTune OpenCL <a href="#cite1">[1]</a>,
+                    PACT <a href="#cite1">[1]</a>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Algorithm Classification</td>
+                <td>
+                    POJ-104 <a href="#cite2">[2]</a>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Defect Detection</td>
+                <td>
+                    BigCloneBench <a href="#cite3">[3]</a>,
+                    POJ-104 <a href="#cite2">[2]</a>,
+                    Defects4J <a href="#cite5">[5]</a>,
+                    Devign <a href="#cite6">[6]</a>,
+                    Wang Java Dataset <a href="#cite7">[7]</a>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Compiler Analysis</td>
+                <td>
+                    LLVM IR,
+                    DeepTyper <a href="#cite8">[8]</a>
+                </td>
+            </tr>
+            
+            <!-- Code-Code -->
+            <!-- -->
+            <tr>
+                <td>Code-Code</td>
+                <td>Code Completion</td>
+                <td>
+                    PY-150 <a href="#cite9">[9]</a>,
+                    Github Java Corpus <a href="#cite10">[10]</a>,
+                    CodeSearchNet <a href="#cite4">[4]</a>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Code Repair</td>
+                <td>
+                    Tufano's Dataset <a href="#cite11">[11]</a>
+                </td>
+            </tr>
+                <td></td>
+            <tr>
+                <td></td>
+                <td>Code Translation</td>
+                <td>
+                    Nguyen's Dataset <a href="#cite12">[12]</a>,
+                    CodeTrans <a href="#cite13">[13]</a>,
+                    Tufano's Dataset <a href="#cite11">[11]</a>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Cloze Testing</td>
+                <td>
+                    CodeSearchNet <a href="#cite4">[4]</a>
+                </td>
+            </tr>
+            
+            <!-- Code-Text -->
+            <!-- -->
+            <tr>
+                <td>Code-Text</td>
+                <td>Code Summarization</td>
+                <td>
+                    CodeSearchNet <a href="#cite4">[4]</a>,
+                    DeepCom <a href="#cite14">[14]</a>
+                </td>
+            </tr>
+            
+            <!-- Text-Code -->
+            <!-- -->
+            <tr>
+                <td>Text-Code</td>
+                <td>NL description to Code</td>
+                <td>
+                    CodeSearchNet <a href="#cite4">[4]</a>,
+                    AdvTest <a href="#cite4">[4]</a>,
+                    CONCODE <a href="#cite15">[15]</a>,
+                    CosQA <a href="#cite16">[16]</a>,
+                    CoNaLa <a href="#cite17">[17]</a>
+                </td>
+            </tr>
+            
+            <!-- Text-Text -->
+            <!-- -->
+            <tr>
+                <td>Text-Text</td>
+                <td>Document Translation</td>
+                <td>
+                    CodeXGlue <a href="#cite18">[18]</a>
+                </td>
+            </tr>
+            
+            <!-- Semantic Matching -->
+            <!-- -->
+            <tr>
+                <td>Semantic Matching</td>
+                <td>Clone Detection</td>
+                <td>
+                    BigCloneBench <a href="#cite3">[3]</a>,
+                    Python8000 <a href="#cite19">[19]</a>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Code Search</td>
+                <td>
+                    CodeSearchNet <a href="#cite4">[4]</a>
+                </td>
+            </tr>
+        </table>
+        
+        <!-- The citation area -->
+        <hr />
+        <p id="cite1">
+        <b>[1]</b> C. Cummins, P. Petoumenos, Z. Wang and H. Leather, "End-to-End Deep Learning of Optimization Heuristics," 2017 26th International Conference on Parallel Architectures and Compilation Techniques (PACT), 2017, pp. 219-232, doi: 10.1109/PACT.2017.24.
+        </p>
+        
+        <p id="cite2">
+        <b>[2]</b> Lili Mou, Ge Li, Lu Zhang, Tao Wang, and Zhi Jin. 2016. Convolutional neural networks over tree structures for programming language processing. In Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence (AAAI'16). AAAI Press, 1287–1293.
+        </p>
+        
+        <!-- BigCloneBench -->
+        <p id="cite3">
+<b>[3]</b> J. Svajlenko, J. F. Islam, I. Keivanloo, C. K. Roy and M. M. Mia, "Towards a Big Data Curated Benchmark of Inter-project Code Clones," 2014 IEEE International Conference on Software Maintenance and Evolution, 2014, pp. 476-480, doi: 10.1109/ICSME.2014.77.
+        </p>
+        
+        <!-- CodeSearchNet -->
+        <p id="cite4">
+<b>[4]</b> Husain, Hamel, Ho-Hsiang Wu, Tiferet Gazit, Miltiadis Allamanis, and Marc Brockschmidt. "Codesearchnet challenge: Evaluating the state of semantic code search." arXiv preprint arXiv:1909.09436 (2019).
+        </p>
+        
+        <!-- Defects4J -->
+        <p id="cite5">
+<b>[5]</b> René Just, Darioush Jalali, and Michael D. Ernst. 2014. Defects4J: a database of existing faults to enable controlled testing studies for Java programs. In Proceedings of the 2014 International Symposium on Software Testing and Analysis (ISSTA 2014). Association for Computing Machinery, New York, NY, USA, 437–440. https://doi.org/10.1145/2610384.2628055
+        </p>
+        
+        <!-- Devign dataset -->
+        <p id="cite6">
+<b>[6]</b> Zhou, Yaqin, Shangqing Liu, Jingkai Siow, Xiaoning Du, and Yang Liu. "Devign: Effective vulnerability identification by learning comprehensive program semantics via graph neural networks." Advances in neural information processing systems 32 (2019).
+        </p>
+        
+        <!-- Wang Java dataset -->
+        <p id="cite7">
+<b>[7]</b> Wang, Wenhan, Ge Li, Bo Ma, Xin Xia, and Zhi Jin. "Detecting code clones with graph neural networkand flow-augmented abstract syntax tree." arXiv preprint arXiv:2002.08653 (2020).
+        </p>
+        
+        <!-- DeepTyper -->
+        <p id="cite8">
+<b>[8]</b> Vincent J. Hellendoorn, Christian Bird, Earl T. Barr, and Miltiadis Allamanis. 2018. Deep learning type inference. In Proceedings of the 2018 26th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2018). Association for Computing Machinery, New York, NY, USA, 152–162. https://doi.org/10.1145/3236024.3236051
+        </p>
+        
+        <!-- PY150 -->
+        <p id="cite9">
+<b>[9]</b> Veselin Raychev, Pavol Bielik, and Martin Vechev. 2016. Probabilistic model for code with decision trees. In Proceedings of the 2016 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA 2016). Association for Computing Machinery, New York, NY, USA, 731–747. https://doi.org/10.1145/2983990.2984041
+        </p>
+        
+        <!-- Github Java Corpus -->
+        <p id="cite10">
+<b>[10]</b> M. Allamanis and C. Sutton, "Mining source code repositories at massive scale using language modeling," 2013 10th Working Conference on Mining Software Repositories (MSR), 2013, pp. 207-216, doi: 10.1109/MSR.2013.6624029.
+        </p>
+        
+        <!-- Tufano's dataset -->
+        <p id="cite11">
+<b>[11]</b> Michele Tufano, Cody Watson, Gabriele Bavota, Massimiliano Di Penta, Martin White, and Denys Poshyvanyk. 2019. An Empirical Study on Learning Bug-Fixing Patches in the Wild via Neural Machine Translation. ACM Trans. Softw. Eng. Methodol. 28, 4, Article 19 (October 2019), 29 pages. https://doi.org/10.1145/3340544
+        </p>
+        
+        <!-- Nguyen's dataset -->
+        <p id="cite12">
+<b>[12]</b> A. T. Nguyen, T. T. Nguyen and T. N. Nguyen, "Divide-and-Conquer Approach for Multi-phase Statistical Migration for Source Code (T)," 2015 30th IEEE/ACM International Conference on Automated Software Engineering (ASE), 2015, pp. 585-596, doi: 10.1109/ASE.2015.74.
+        </p>
+        
+        <!-- CodeTrans -->
+        <p id="cite13">
+<b>[13]</b> Xinyun Chen, Chang Liu, and Dawn Song. 2018. Tree-to-tree neural networks for program translation. In Proceedings of the 32nd International Conference on Neural Information Processing Systems (NIPS'18). Curran Associates Inc., Red Hook, NY, USA, 2552–2562.
+        </p>
+        
+        <!-- DeepCom -->
+        <p id="cite14">
+<b>[14]</b> Hu, X., Li, G., Xia, X. et al. Deep code comment generation with hybrid lexical and syntactical information. Empir Software Eng 25, 2179–2217 (2020). https://doi.org/10.1007/s10664-019-09730-9
+        </p>
+        
+        <!-- CONCODE -->
+        <p id="cite15">
+<b>[15]</b> Iyer, Srinivasan, Ioannis Konstas, Alvin Cheung, and Luke Zettlemoyer. "Mapping language to code in programmatic context." arXiv preprint arXiv:1808.09588 (2018).
+        </p>
+        
+        <!-- COSQA -->
+        <p id="cite16">
+<b>[16]</b> Huang, Junjie, Duyu Tang, Linjun Shou, Ming Gong, Ke Xu, Daxin Jiang, Ming Zhou, and Nan Duan. "Cosqa: 20,000+ web queries for code search and question answering." arXiv preprint arXiv:2105.13239 (2021).
+        </p>
+        
+        <!-- CoNaLa -->
+        <p id="cite17">
+<b>[17]</b> Pengcheng Yin, Bowen Deng, Edgar Chen, Bogdan Vasilescu, and Graham Neubig. 2018. Learning to mine aligned code and natural language pairs from stack overflow. In Proceedings of the 15th International Conference on Mining Software Repositories (MSR '18). Association for Computing Machinery, New York, NY, USA, 476–486. https://doi.org/10.1145/3196398.3196408
+        </p>
+        
+        <!-- CodeXGlue -->
+        <p id="cite18">
+<b>[18]</b> Lu, Shuai, Daya Guo, Shuo Ren, Junjie Huang, Alexey Svyatkovskiy, Ambrosio Blanco, Colin Clement et al. "Codexglue: A machine learning benchmark dataset for code understanding and generation." arXiv preprint arXiv:2102.04664 (2021).
+        </p>
+        
+        <!-- Python8000 -->
+        <p id="cite19">
+<b>[19]</b> Puri, Ruchir, David S. Kung, Geert Janssen, Wei Zhang, Giacomo Domeniconi, Vladimir Zolotov, Julian Dolby et al. "CodeNet: A large-scale AI for code dataset for learning a diversity of coding tasks." arXiv preprint arXiv:2105.12655 (2021).
+        </p>
+    </body>
+</html>
+
